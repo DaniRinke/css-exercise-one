@@ -1,41 +1,54 @@
-/**** body ****/
-body
-  {font-size: 14px;
+
+/* Div Element Text*/
+body {
+  font-size: 14px;
 }
-/* Navigation */
+
+/*Top nav*/
 nav {
-  background color: yellow;
+  background-color: yellow; /*Change Nav color*/
   height: 100px;
-  margin-top: -10px;
+  margin-top: -20%;
   position: fixed;
   width: 100%;
 }
-/* Section */
+
+/*Section behind Div Elements*/
 section {
-  margin: 0 auto;
-  width: 60%;
+  margin-top: 15%;
+  width: 100%;
+
 }
-/*h1*/
+
+/*h1 text*/
 h1 {
-  font-family: sans-serif;
-  font-size: 2em;
+  font-family: sans-serif; /*change h1 font*/
+  font-size: 2em; /*change h1 size*/
 }
 
-.example,
-
-/* H3*/
- h3 {
+/*nav text*/
+.example {
   padding-top: 30px;
   text-align: center;
 }
 
+/*h3 text*/
 h3 {
   font-size: 1.3em;
 }
 
+/*Top div elements*/
 .element {
-  background-color: green;
+  background-color: green; /*change top three div elements background color*/
   height: 100px;
-  margin: 10px 0;
+  margin: 10px;
+  width: 100%;
+}
+
+/*bottom three div elements*/
+.bottom {
+  background-color: yellow; /*change bottom three div elements background color*/
+  height: 100px;
+  margin: 10px;
   width: 100%;
 }
